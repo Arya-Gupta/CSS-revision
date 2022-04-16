@@ -1,6 +1,6 @@
 # Basics
 
-<a href="https://www.youtube.com/watch?v=buxedopZbKM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=16">1 - Chrome dev tools</a>
+<a href="https://www.youtube.com/watch?v=buxedopZbKM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=16" target="_blank">1 - Chrome dev tools</a>
 
 <a href="https://www.youtube.com/watch?v=5koxb4JaDqc&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=20">2 - Box model</a>
 

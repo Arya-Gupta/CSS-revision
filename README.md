@@ -1,6 +1,6 @@
 # Basics
 
-<a href="https://www.youtube.com/watch?v=buxedopZbKM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=16" target="_blank">1 - Chrome dev tools</a>
+<a href="https://www.youtube.com/watch?v=buxedopZbKM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=16">1 - Chrome dev tools</a>
 
 <a href="https://www.youtube.com/watch?v=5koxb4JaDqc&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=20">2 - Box model</a>
 
@@ -18,12 +18,13 @@
 
 <a href="https://www.youtube.com/watch?v=PlKG1fooswU&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=33">9 - Before and after selectors</a>
 
-- https://www.youtube.com/watch?v=ASNldCkFBcM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=34
-- https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35
+<a href="https://www.youtube.com/watch?v=ASNldCkFBcM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=34">10 - Box shadow and text shadow</a>
+
+<a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">11 - Variables</a>
 
 # Flexbox
 
-- https://www.youtube.com/watch?v=4ykmsTpIn08&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=28
+<a href="https://www.youtube.com/watch?v=5qVuORLniwM">Crash course</a>
 
 # Responsive design
 

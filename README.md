@@ -52,3 +52,7 @@
 <a href="https://www.youtube.com/watch?v=k4Dr0PJKidI&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=37">2 - Transitions</a>
 
 <a href="https://www.youtube.com/watch?v=K0Gz7CKNJzY&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=38">3 - Transform</a>
+
+# SASS
+
+<a href="https://www.youtube.com/watch?v=nu5mdN2JIwM&list=PLRlbDmjayb7aMt0y8wX6tDT2HVBja2-af&index=1">Crash course</a>

@@ -28,17 +28,27 @@
 
 # Responsive design
 
-- https://www.youtube.com/watch?v=DVjrb52C5Gs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=29
-- https://www.youtube.com/watch?v=WTz4A8IdeEQ&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=30
-- https://www.youtube.com/watch?v=MPl9bevckUE&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=40
-- https://www.youtube.com/watch?v=Aec0xLKzBWk&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=41
-- https://www.youtube.com/watch?v=5II60I5gpKY&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=42
-- https://www.youtube.com/watch?v=QAv7TsE18QM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=43
-- https://www.youtube.com/watch?v=JBupsN9Cmrs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=44
-- https://www.youtube.com/watch?v=mu0qTVIkkAs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=45
+<a href="https://www.youtube.com/watch?v=DVjrb52C5Gs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=30">1 - Em, rem and vh</a>
+
+<a href="https://www.youtube.com/watch?v=WTz4A8IdeEQ&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=31">2 - Media queries</a>
+
+<a href="https://www.youtube.com/watch?v=MPl9bevckUE&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=40">3 - CSS Grid I</a>
+
+<a href="https://www.youtube.com/watch?v=Aec0xLKzBWk&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=41">4 - CSS Grid II</a>
+
+<a href="https://www.youtube.com/watch?v=5II60I5gpKY&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=42">5 - CSS Grid III</a>
+
+<a href="https://www.youtube.com/watch?v=QAv7TsE18QM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=43">6 - CSS Grid IV</a>
+
+<a href="https://www.youtube.com/watch?v=JBupsN9Cmrs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=44">7 - CSS Grid V</a>
+
+<a href="https://www.youtube.com/watch?v=mu0qTVIkkAs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=45">8 - Media queries with CSS Grid</a>
+
 
 # Animations
 
-- https://www.youtube.com/watch?v=jiK6Mf-ILSg&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=36
-- https://www.youtube.com/watch?v=k4Dr0PJKidI&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=37
-- https://www.youtube.com/watch?v=K0Gz7CKNJzY&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=38
+<a href="https://www.youtube.com/watch?v=jiK6Mf-ILSg&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=36">1 - Animations and keyframes</a>
+
+<a href="https://www.youtube.com/watch?v=k4Dr0PJKidI&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=37">2 - Transitions</a>
+
+<a href="https://www.youtube.com/watch?v=K0Gz7CKNJzY&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=38">3 - Transform</a>

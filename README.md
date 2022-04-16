@@ -1,6 +1,6 @@
 # Basics
 
-- https://www.youtube.com/watch?v=DFT9qxVCF6k&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=9
+- <a href="https://www.youtube.com/watch?v=buxedopZbKM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=16">1</a>
 - https://www.youtube.com/watch?v=buxedopZbKM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=16
 - https://www.youtube.com/watch?v=5koxb4JaDqc&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=20
 - https://www.youtube.com/watch?v=6G42rXal5-g&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=21

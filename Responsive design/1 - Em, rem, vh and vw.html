@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 - Em, rem, vh and vw</title>
+    <style>
+        html{
+            font-size: 10px;
+        }
+        *{
+            margin: 0;
+        }
+        .container{
+            height: 100vh;
+            width: 70vw;
+            font-size: 20px;
+            background-color: rgb(142, 168, 168);
+        }
+        p{
+            text-align: center;
+        }
+
+        .first{
+            /* em should we used when we want the child element to be resized when the parent element is resized */
+            font-size: 3em; /* first will have a font size which is 3 times of its upper element 3 * 20 = 60px */
+            padding: 3em;
+        }
+        .second{
+            /* rem will resize the element relative to the root html element */
+            font-size: 5rem; /* second will have a font size which is 5 times of default html font size 10 * 5 = 50px */
+            padding: 5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="first">first</p> 
+        <p class="second">second</p>
+        <p class="third">third</p>
+    </div>
+</body>
+</html>

@@ -12,15 +12,17 @@
 
 <a href="https://www.youtube.com/watch?v=Uzuq2FGxgK4&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=27">6 - Visibility and z-index</a>
 
-<a href="https://www.youtube.com/watch?v=WwUM7qOimbo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=31">7 - Selectors</a>
+<a href="https://www.youtube.com/watch?v=oPPym7UaSIo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=15">7 - Selectors I</a>
 
-<a href="https://www.youtube.com/watch?v=P-hZDC5YkJE&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=32">8 - Pseudo selectors</a>
+<a href="https://www.youtube.com/watch?v=WwUM7qOimbo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=31">8 - Selectors II</a>
 
-<a href="https://www.youtube.com/watch?v=PlKG1fooswU&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=33">9 - Before and after selectors</a>
+<a href="https://www.youtube.com/watch?v=P-hZDC5YkJE&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=32">9 - Pseudo selectors</a>
 
-<a href="https://www.youtube.com/watch?v=ASNldCkFBcM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=34">10 - Box shadow and text shadow</a>
+<a href="https://www.youtube.com/watch?v=PlKG1fooswU&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=33">10 - Before and after selectors</a>
 
-<a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">11 - Variables</a>
+<a href="https://www.youtube.com/watch?v=ASNldCkFBcM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=34">11 - Box shadow and text shadow</a>
+
+<a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">12 - Variables</a>
 
 # Flexbox
 

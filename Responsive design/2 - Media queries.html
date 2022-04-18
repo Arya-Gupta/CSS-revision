@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 - Media queries</title>
+    <style>
+        /* A media query is composed of two things: media type and expression. A media query can contain one or more expressions. */
+        .device{
+            text-align: center;
+            background-color: darkgreen;
+            color: white;
+            font-size: 60px;
+            border: 2px solid black;
+            padding: 20px;
+            display: none;
+        }
+
+        @media only screen and (max-width:300px){
+            #device1{
+                display: block;
+                background-color: pink;
+            }
+        }
+
+        @media only screen and (min-width: 300px) and (max-width: 600px){
+            #device2{
+                display: block;
+                background-color: gray;
+            }
+        }
+
+        @media only screen and (min-width: 600px) and (max-width: 1000px){
+            #device3{
+                display: block;
+                background-color: yellowgreen;
+            }
+        }
+
+        @media only screen and (min-width: 1000px) and (max-width: 1400px){
+            #device4{
+                display: block;
+                background-color: red;
+            }
+        }
+
+        @media only screen and (min-width: 1400px){
+            #device5{
+                display: block;
+                background-color: blueviolet;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p class = "device" id="device1">This is device 1</p>
+        <p class = "device" id="device2">This is device 2</p>
+        <p class = "device" id="device3">This is device 3</p>
+        <p class = "device" id="device4">This is device 4</p>
+        <p class = "device" id="device5">This is device 5</p>
+    </div>
+</body>
+</html>

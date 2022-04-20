@@ -46,6 +46,10 @@
 
 <a href="https://www.youtube.com/watch?v=mu0qTVIkkAs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=45">8 - Media queries with CSS Grid</a>
 
+<a href="https://www.youtube.com/watch?v=CC2HkBZuReY">9 - Build layouts with CSS Grid</a>
+
+<a href="https://www.youtube.com/watch?v=VQraviuwbzU">10 - Tips to create responsive layouts</a>
+
 
 # Animations
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 - CSS Grid I</title>
+    <style>
+        /* The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning. */
+        .container{
+            /* CSS Grid is simply a technique to design layouts */
+            display: grid; /* We initialize the grid and make all its components act in two-dimensional layout. Now our container is a grid and all its children are grid components. */
+            font-size: 20px;
+            /* grid-template-columns: 300px 100px 100px; Creates 3 columns of width 300px, 100px and 100px respectively */ 
+            /* grid-template-columns: 1fr 2fr 3fr; fr defines the fraction of the available width in the grid container to be taken up by that column */
+            grid-template-columns: 300px auto 100px; /* Creates left and right column have width 300px and 100px respectively while the rest is taken up by the middle column */
+            /* grid-template-columns: repeat(7, auto); When we want to create n columns, we use the repeat function repeat(n, width of column) */
+            grid-gap: 2rem; /* Creates a gap between grid elements */
+        }
+        .item{
+            background-color: brown;
+            padding: 5px;
+            height: 70px;
+            margin: 10px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div>
+        <div class="item">Item 9</div>
+    </div>
+</body>
+</html>

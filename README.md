@@ -1,7 +1,7 @@
 ```mermaid
 graph TD;
     CSS-->Basics;
-    CSS-->Responsive design;
+    CSS-->Responsivedesign;
     CSS-->Animations;
     CSS-->Preprocessors;
 ```

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 - CSS Grid V</title>
+    <style>
+        .container{
+            padding: 10px;
+            background-color: lavender;
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: 
+            'navbar navbar navbar navbar' 
+            'section section section aside'
+        }
+        .box{
+            background-color: brown;
+            border: 1px solid black;
+            padding: 5px;
+            font-size: 30px;
+        }
+        #navbar{
+            grid-area: navbar;
+        }
+        #section{
+            grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class= "container">
+        <div id= "navbar" class="box">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia porro consequuntur, necessitatibus totam ad tenetur in repellendus, quo vel dolorum natus mollitia sequi rerum laboriosam. Dolorem ab quas ipsa eius?
+        </div>
+        <div id= "section" class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias saepe vero alias voluptate quas esse voluptatum, minus sed et nobis, libero ex voluptatibus quidem tempora iusto eius? Laudantium, eum repellendus?
+            Doloremque ipsa unde atque ipsam illo, ullam cumque perferendis pariatur eos id obcaecati asperiores saepe aperiam animi facilis eum amet dolor aspernatur quam delectus assumenda perspiciatis, voluptates itaque. Laboriosam, sit.
+            Repellendus vero eos sint ratione, eius quos similique eum perferendis vel maiores. Voluptas, expedita quibusdam, voluptate ipsum quasi ea ad cum fugiat necessitatibus commodi reprehenderit architecto beatae dolorum nihil provident.
+        </div>
+        <div id="aside" class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit atque nesciunt provident omnis accusantium eos maiores sunt magni recusandae temporibus, voluptas sed expedita a blanditiis exercitationem incidunt. Eveniet, atque eius.
+            Enim veniam quidem voluptatem aliquam, nobis pariatur vel consectetur ipsam soluta ducimus illum, saepe aperiam eaque, vitae ea? Vitae ea aut enim ab, at dolorum. Dolore dolorem optio minima natus?
+            Quia illum ipsum quos aspernatur libero praesentium, laborum repudiandae totam deserunt officiis sint! Corrupti cupiditate vel quis eaque, beatae voluptates aliquam velit itaque dignissimos explicabo cumque qui minima numquam ut.</div>
+        </div>
+        <footer id="item" class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eos debitis repudiandae, quasi temporibus expedita, asperiores nulla facere magni eaque necessitatibus velit amet fuga. Quae laboriosam accusamus reiciendis adipisci perspiciatis!
+        </footer>
+</body>
+</html>

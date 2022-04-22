@@ -1,3 +1,12 @@
+```mermaid
+graph TD;
+    CSS-->Basics;
+    CSS-->Responsive design;
+    CSS-->Animations;
+    CSS-->Preprocessors;
+    CSS-->Frameworks;
+```
+
 ## Basics
 
 <a href="https://www.youtube.com/watch?v=buxedopZbKM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=16">1 - Chrome dev tools</a>
@@ -24,10 +33,6 @@
 
 <a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">12 - Variables</a>
 
-## Flexbox
-
-<a href="https://www.youtube.com/watch?v=5qVuORLniwM">Crash course</a>
-
 ## Responsive design
 
 <a href="https://www.youtube.com/watch?v=DVjrb52C5Gs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=30">1 - Em, rem, vh and vw</a>
@@ -50,6 +55,8 @@
 
 <a href="https://www.youtube.com/watch?v=VQraviuwbzU">10 - Tips to create responsive layouts</a>
 
+<a href="https://www.youtube.com/watch?v=5qVuORLniwM">11 - Flexbox crash course</a>
+
 
 ## Animations
 
@@ -59,12 +66,14 @@
 
 <a href="https://www.youtube.com/watch?v=K0Gz7CKNJzY&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=38">3 - Transform</a>
 
-## SASS
+## Preprocessors
 
-<a href="https://www.youtube.com/watch?v=nu5mdN2JIwM&list=PLRlbDmjayb7aMt0y8wX6tDT2HVBja2-af&index=1">Crash course</a>
+<a href="https://www.youtube.com/watch?v=nu5mdN2JIwM&list=PLRlbDmjayb7aMt0y8wX6tDT2HVBja2-af&index=1">SASS crash course</a>
 
-## Material-UI
+## Frameworks
 
-<a href="https://www.youtube.com/watch?v=vyJU9efvUtQ">Crash course</a>
+<a href="https://www.youtube.com/watch?v=vpAJ0s5S2t0&t=4003s">Bootstrap crash course</a>
+
+<a href="https://www.youtube.com/watch?v=vyJU9efvUtQ">Material-UI crash course</a>
 
 <a href="https://www.youtube.com/watch?v=zT62eVxShsY">ReactJS + MUI form</a>

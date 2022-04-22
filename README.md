@@ -1,10 +1,9 @@
 ```mermaid
 graph TD;
-    CSS-->Basics;
-    CSS-->Responsive design;
-    CSS-->Animations;
-    CSS-->Preprocessors;
-    CSS-->Frameworks;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
 
 ## Basics

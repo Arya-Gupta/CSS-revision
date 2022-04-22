@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 - CSS Grid IV</title>
+    <style>
+        .container{
+            /* grid-template-columns: 1fr 1fr 1fr; will only set all the grids in 3 columns irrespective of the screen size. But if we want that all the grids should behave according to the 
+            screen size and adjust its size according to different devices, then we have to make them responsive. It means if the user is viewing our website on a mobile phone, 
+            he should see the number of rows less as compared while he is watching on a larger screen. */
+            padding: 10px;
+            background-color: lavender;
+            display: grid;
+            grid-gap: 1rem;
+            /* The benefit of auto-fit is that it will repeat the number of times it is necessary. */
+            /* The minmax will decide the minimum width given to any rows. */
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        }
+
+        .box{
+            background-color: brown;
+            border: 1px solid black;
+            padding: 5px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
+        <div class="box">Box 6</div>
+        <div class="box">Box 7</div>
+        <div class="box">Box 8</div>
+        <div class="box">Box 9</div>
+        <div class="box">Box 10</div>
+        <div class="box">Box 11</div>
+        <div class="box">Box 12</div>
+    </div>
+</body>
+</html>

@@ -4,7 +4,6 @@ graph TD;
     CSS-->Responsive design;
     CSS-->Animations;
     CSS-->Preprocessors;
-    CSS-->Frameworks;
 ```
 
 ## Basics

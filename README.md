@@ -1,7 +1,7 @@
 ```mermaid
 graph TD;
     CSS-->Basics;
-    CSS-->Responsivedesign;
+    CSS-->Responsive-design;
     CSS-->Animations;
     CSS-->Preprocessors;
 ```
@@ -32,7 +32,7 @@ graph TD;
 
 <a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">12 - Variables</a>
 
-## Responsive design
+## Responsive-design
 
 <a href="https://www.youtube.com/watch?v=DVjrb52C5Gs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=30">1 - Em, rem, vh and vw</a>
 

@@ -24,11 +24,11 @@
 
 <a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">12 - Variables</a>
 
-# Flexbox
+## Flexbox
 
 <a href="https://www.youtube.com/watch?v=5qVuORLniwM">Crash course</a>
 
-# Responsive design
+## Responsive design
 
 <a href="https://www.youtube.com/watch?v=DVjrb52C5Gs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=30">1 - Em, rem, vh and vw</a>
 
@@ -51,7 +51,7 @@
 <a href="https://www.youtube.com/watch?v=VQraviuwbzU">10 - Tips to create responsive layouts</a>
 
 
-# Animations
+## Animations
 
 <a href="https://www.youtube.com/watch?v=jiK6Mf-ILSg&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=36">1 - Animations and keyframes</a>
 
@@ -59,11 +59,11 @@
 
 <a href="https://www.youtube.com/watch?v=K0Gz7CKNJzY&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=38">3 - Transform</a>
 
-# SASS
+## SASS
 
 <a href="https://www.youtube.com/watch?v=nu5mdN2JIwM&list=PLRlbDmjayb7aMt0y8wX6tDT2HVBja2-af&index=1">Crash course</a>
 
-# Material-UI
+## Material-UI
 
 <a href="https://www.youtube.com/watch?v=vyJU9efvUtQ">Crash course</a>
 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 - CSS Grid III</title>
+    <style>
+        .container{
+            /* If there are 2 rows in a grid container each of size 1fr is the SAME as 2 rows of size 5fr or 10fr. This is because the capacity of the container is constant and the size of each
+            rows is 5fr, which means the space is equally divided among them. If we do grid-template-rows: repeat(10, 1fr); when there are only 2 rows, 2 empty rows are inserted and the container 
+            simply increases in size to accomodate them. */
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            /* grid-template-rows: repeat(10, 1fr);  We have only 2 rows so the grid container parent increases size to accomodate 8 extra blank rows  */
+            grid-column-gap: 7rem;
+            grid-row-gap: 2rem;
+            background-color: lavender;
+            padding: 10px;
+        }
+
+        .box{
+            border: 1px solid black;
+            background-color: brown;
+            padding: 5px;
+            font-size: 30px;
+        }
+
+        /* We can span rows and columns in a grid to create different layouts */
+        .box:first-child{
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+            grid-column: 1 / span 2; /* Shortcut */
+            /* grid-row-start: 1;
+            grid-row-end: 3; */
+            grid-row: 1 / span 2; /* Shortcut */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
+        <div class="box">Box 6</div>
+        <div class="box">Box 7</div>
+        <div class="box">Box 8</div>
+        <div class="box">Box 9</div>
+        <div class="box">Box 10</div>
+        <div class="box">Box 11</div>
+        <div class="box">Box 12</div>
+        <div class="box">Box 13</div>
+        <div class="box">Box 14</div>
+        <div class="box">Box 15</div>
+        <div class="box">Box 16</div>
+    </div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Basics
+### Basics
 
 <a href="https://www.youtube.com/watch?v=buxedopZbKM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=16">1 - Chrome dev tools</a>
 

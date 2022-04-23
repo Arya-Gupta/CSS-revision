@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 - Media queries with CSS Grid</title>
+    <style>
+        .container{
+            display: grid;
+            margin: 30px;
+            padding: 10px;
+            background-color: lavender;
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas:
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer ';
+        }
+
+        .box{
+            background-color: brown;
+            border: 1px solid black;
+            padding: 5px;
+            font-size: 22px;
+        }
+
+        nav{
+            grid-area: navbar;
+        }
+        section{
+            grid-area: section;
+        }
+        aside{
+            grid-area: aside;
+        }
+        footer{
+            grid-area: footer;
+        }
+
+        @media only screen and (max-width:300px){
+            body{
+                background-color: pink;
+            }
+            .container{
+                grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section aside aside'
+                'aside aside aside aside'
+                'footer footer footer footer ';
+            }
+            span{
+                display: block;
+            }
+            nav{
+                text-align: center;
+            }
+            aside{
+                display: none;
+            }
+        }
+
+        @media only screen and (min-width: 300px) and (max-width: 600px){
+            body{
+                background-color: lightsteelblue;
+            }
+            .container{
+                grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section aside aside'
+                'aside aside aside aside'
+                'footer footer footer footer ';
+            }
+            aside{
+                display: none;
+            }
+        }
+
+        @media only screen and (min-width: 600px) and (max-width: 1000px){
+            body{
+                background-color: lightsalmon;
+            }
+            .container{
+                grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section section section'
+                'aside aside aside aside'
+                'footer footer footer footer ';
+            }
+        }
+
+        @media only screen and (min-width: 1000px) and (max-width: 1400px){
+            body{
+                background-color: lightgoldenrodyellow;
+            }
+            .container{
+                grid-template-areas:
+                'navbar navbar navbar navbar'
+                'section section aside aside'
+                'footer footer footer footer ';
+            }
+        }
+
+        @media only screen and (min-width: 1400px){
+            body{
+                background-color: palegreen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container ">
+        <nav class="box">
+            <span>One</span>
+            <span>Two</span>
+            <span>Three</span>
+            <span>Four</span> 
+            <span>Five</span> 
+            <span>Six</span> 
+            <span>Seven</span> 
+            <span>Eight</span> 
+            <span>Nine</span> 
+            <span>Ten</span> 
+        </nav>
+        <section class="box">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure totam cum, architecto aliquam dolore delectus repellat ab fugit sunt modi unde dicta ad id deserunt corrupti laborum? At, consequatur doloremque.
+            Sequi nulla quae voluptatibus impedit, dignissimos quo ad soluta eveniet ab, nemo cum. Reiciendis, exercitationem explicabo? Numquam, deleniti libero. Placeat aut in asperiores distinctio error explicabo earum voluptatem modi voluptatibus?
+            Perferendis, unde praesentium qui omnis voluptatem quod ab exercitationem id, sit beatae rem. Facilis soluta nostrum magnam cumque? Perferendis similique culpa molestiae quisquam hic quibusdam minus nemo illum, nam error.
+        </section>
+        <aside class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero fugiat quod quo hic beatae corrupti accusamus veniam provident consequuntur dolor? Molestias voluptate eos incidunt error cum? Cupiditate, similique? Eum, dolorem.
+        </aside>
+        <footer class="box">CSS Grid + Media Queries</footer>
+    </div>
+</body>
+</html>

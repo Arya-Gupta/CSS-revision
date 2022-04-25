@@ -55,7 +55,9 @@ graph TD;
 
 <a href="https://www.youtube.com/watch?v=VQraviuwbzU">10 - Tips to create responsive layouts</a>
 
-<a href="https://www.youtube.com/watch?v=5qVuORLniwM">11 - Flexbox crash course</a>
+<a href="https://www.youtube.com/watch?v=5qVuORLniwM">11 - Flexbox I</a>
+
+<a href="https://www.youtube.com/watch?v=u044iM9xsWU">12 - Flexbox II</a>
 
 
 ## Animations

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 - Float</title>
+    <style>
+        /*
+            When we float something, the element is removed from the normal flow of the page, while remaining a part of the flow of the web page. However, absolutely positioned elements are removed from the flow of the webpage.
+            Floats can be used for creating layouts, although there are now better methods of doing so.
+            In case of container1, when we float our image to the right, notice that while the picture floats up, a part of para1 goes underneath the picture, while the text just wraps around it.
+            In case of container2, when we float our blue box to the left, it floats up while a part of the red box goes underneath it. We can also see that para2 has gone under the blue box, but the text has wrapped around the the box. We can further verify this by giving a margin-right to the blue box.
+            The zero margin of the blue box stops the text from coming under the box, even if its container goes under it. However we can bring the text under the box using negative margin.
+         */
+        *{
+            box-sizing: border-box;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .para{
+            background-color: pink;
+            border: 2px solid black;
+            font-size: 22px;
+        }
+
+        .box1{
+            border: 2px solid black;
+        }
+
+        #img1{
+            width: 500px;
+            border: 2px solid black;
+            float: right;
+            opacity: 0.3;
+        }
+
+        #blue-box{
+            background-color: blue;
+            opacity: 0.5;
+            width: 500px;
+            height: 1000px;
+            float: left;
+            /* margin-right: 50px; */
+        }
+
+        #red-box{
+            
+            background-color: red;
+            opacity: 0.5;
+            width: 700px;
+            height: 400px;
+        }
+        
+        .container1{
+            margin-bottom: 200px;
+        }
+
+        .container2{
+            margin-bottom: 500px;
+        }
+
+        .box2{
+            border: 2px solid black;
+            width: 100px;
+            height: 100px;
+            opacity: 0.7;
+            /* float: right; Floating everything to the right creates a reverse order */
+            /* Try decreasing the screen size after using the float: right above */
+        }
+
+        #red{ 
+            background-color: red;
+            /* float: right; */
+         }
+        #yellow{ background-color: yellow; }
+        #blue{ background-color: blue; }
+        #green{ background-color: green; }
+        #brown{ background-color: brown; }
+        #orange{ background-color: orange; }
+        #cyan{ background-color:cyan; }
+
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <img id="img1" src="https://images.pexels.com/photos/46160/field-clouds-sky-earth-46160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img1">
+        <div class="para" id="para1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nihil repellat aliquid numquam, veritatis porro ducimus alias pariatur reiciendis beatae dolorum aut excepturi dolorem at, eligendi, minus debitis officia accusantium?
+            Ipsam officia iure ea cumque quod consequuntur! Ab hic blanditiis vero. Incidunt laudantium neque totam quidem id quae eaque placeat sed dolor. Perferendis voluptatibus debitis quisquam velit aliquid quae illum?
+            Ipsum consequatur nihil amet praesentium doloremque fugiat dolores sit architecto, harum esse asperiores quia maxime! Tenetur consectetur praesentium, quia, reprehenderit veritatis culpa veniam magnam repellat neque porro a totam dolores.
+            Quo incidunt, itaque blanditiis ducimus corporis rerum consequatur voluptatibus corrupti ipsum perspiciatis. Corporis, nobis ad aliquid eaque laudantium amet, nisi ducimus facilis cumque distinctio, praesentium libero. Aliquid quod optio ducimus!
+            Incidunt tenetur placeat sit nostrum possimus velit natus molestias similique ullam repudiandae vitae ducimus totam eveniet laborum accusamus expedita praesentium sapiente voluptatibus, quidem a mollitia iusto soluta quaerat sunt! Et.
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="box1" id="blue-box"></div>
+        <div class="box1" id="red-box"></div>
+        <div class="para" id="para2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nihil repellat aliquid numquam, veritatis porro ducimus alias pariatur reiciendis beatae dolorum aut excepturi dolorem at, eligendi, minus debitis officia accusantium?
+            Ipsam officia iure ea cumque quod consequuntur! Ab hic blanditiis vero. Incidunt laudantium neque totam quidem id quae eaque placeat sed dolor. Perferendis voluptatibus debitis quisquam velit aliquid quae illum?
+            Ipsum consequatur nihil amet praesentium doloremque fugiat dolores sit architecto, harum esse asperiores quia maxime! Tenetur consectetur praesentium, quia, reprehenderit veritatis culpa veniam magnam repellat neque porro a totam dolores.
+            Quo incidunt, itaque blanditiis ducimus corporis rerum consequatur voluptatibus corrupti ipsum perspiciatis. Corporis, nobis ad aliquid eaque laudantium amet, nisi ducimus facilis cumque distinctio, praesentium libero. Aliquid quod optio ducimus!
+            Incidunt tenetur placeat sit nostrum possimus velit natus molestias similique ullam repudiandae vitae ducimus totam eveniet laborum accusamus expedita praesentium sapiente voluptatibus, quidem a mollitia iusto soluta quaerat sunt! Et.
+        </div>
+    </div>
+
+    <div class="container3">
+        <div id="red" class="box2"></div>
+        <div id="yellow" class="box2"></div>
+        <div id="blue" class="box2"></div>
+        <div id="green" class="box2"></div>
+        <div id="brown" class="box2"></div>
+        <div id="orange" class="box2"></div>
+        <div id="cyan" class="box2"></div>
+    </div>
+</body>
+</html>

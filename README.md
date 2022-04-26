@@ -9,29 +9,31 @@ graph TD;
 
 ## Basics
 
-<a href="https://www.youtube.com/watch?v=buxedopZbKM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=16">1 - Chrome dev tools</a>
+<a href="https://www.youtube.com/watch?v=x4q86IjJFag">1 - Chrome dev tools</a>
 
-<a href="https://www.youtube.com/watch?v=5koxb4JaDqc&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=20">2 - Box model</a>
+<a href="https://www.youtube.com/watch?v=M6coJNLFBWI">2 - Box model</a>
 
-<a href="https://www.youtube.com/watch?v=6G42rXal5-g&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=21">3 - Float and clear</a>
+<a href="https://www.youtube.com/watch?v=LrdkRMZhgZg">3 - Float</a>
 
-<a href="https://www.youtube.com/watch?v=YJtlXrzXXFk&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=24">4 - Display property</a>
+<a href="https://www.youtube.com/watch?v=6G42rXal5-g&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=21">4 - Clear</a>
 
-<a href="https://www.youtube.com/watch?v=MwGHiVl-gqk&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=25">5 - Positioning</a>
+<a href="https://www.youtube.com/watch?v=YJtlXrzXXFk&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=24">5 - Display property</a>
 
-<a href="https://www.youtube.com/watch?v=Uzuq2FGxgK4&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=27">6 - Visibility and z-index</a>
+<a href="https://www.youtube.com/watch?v=MwGHiVl-gqk&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=25">6 - Positioning</a>
 
-<a href="https://www.youtube.com/watch?v=oPPym7UaSIo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=15">7 - Selectors I</a>
+<a href="https://www.youtube.com/watch?v=Uzuq2FGxgK4&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=27">7 - Visibility and z-index</a>
 
-<a href="https://www.youtube.com/watch?v=WwUM7qOimbo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=31">8 - Selectors II</a>
+<a href="https://www.youtube.com/watch?v=oPPym7UaSIo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=15">8 - Selectors I</a>
 
-<a href="https://www.youtube.com/watch?v=P-hZDC5YkJE&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=32">9 - Pseudo selectors</a>
+<a href="https://www.youtube.com/watch?v=WwUM7qOimbo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=31">9 - Selectors II</a>
 
-<a href="https://www.youtube.com/watch?v=PlKG1fooswU&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=33">10 - Before and after selectors</a>
+<a href="https://www.youtube.com/watch?v=P-hZDC5YkJE&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=32">10 - Pseudo selectors</a>
 
-<a href="https://www.youtube.com/watch?v=ASNldCkFBcM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=34">11 - Box shadow and text shadow</a>
+<a href="https://www.youtube.com/watch?v=PlKG1fooswU&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=33">11 - Before and after selectors</a>
 
-<a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">12 - Variables</a>
+<a href="https://www.youtube.com/watch?v=ASNldCkFBcM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=34">12 - Box shadow and text shadow</a>
+
+<a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">13 - Variables</a>
 
 ## Responsive-design
 

@@ -1,1 +1,1 @@
-
+Responsive web design is all about creating dynamic websites that change appeareance based on the device being used. Using responsive web design increases overall user experience and thus site traffic. It improves your website SEO score and ensures that you do not have to build multiple layouts for the same page. 

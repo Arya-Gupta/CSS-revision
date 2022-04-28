@@ -17,7 +17,7 @@ graph TD;
 
 <a href="https://www.youtube.com/watch?v=6G42rXal5-g&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=21">4 - Clear</a>
 
-<a href="https://www.youtube.com/watch?v=YJtlXrzXXFk&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=24">5 - Display property</a>
+<a href="https://www.youtube.com/watch?v=x_i2gga-sYg">5 - Display property</a>
 
 <a href="https://www.youtube.com/watch?v=MwGHiVl-gqk&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=25">6 - Positioning</a>
 

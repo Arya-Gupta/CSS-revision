@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 - Display property</title>
+    <style>
+        /*
+            Block elements always stack on top of one another, even if they have room to go next to each other. By default they have a width of 100% i.e they take up all the space that they can.
+            In this example, all the paragraphs are block-level elements. By default, they take as much room as they can inside their parent container. 
+            The only thing limiting the amount of space that they can take is the parent container which has a size and a fixed padding.
+            Even if we change the width of the paragraph so that they have space to go next to each other, they will still stack on top of one another.
+
+            Inline elements are those which only occupy the space bounded by the tags defining the element, instead of breaking the flow of the content. Inline elements do not start on a new line and only take up as much space as they need.
+            In this example, all the links are inline elements. As we can see if we apply a border to them, they start where the link starts and stops where the link ends.
+
+            Inline-block elements are mostly inline elements but they can have height, width, margin and padding. Inline-block elements do not create a line break.
+            In this example, the buttons are inline. Hence when we give them a lot of padding (padding: 100px 60px), they interfere with our text because we are giving padding to an inline element.
+            While we can apply padding to all sides of an inline element, only left and right padding will have any effect on the surrounding content.
+            Thus the top and bottom padding are only showing up visually, but not interfering with the layout.
+            We can stop them from overlapping with our text by changing them into inline-block elements.
+        */
+
+        *{
+            box-sizing: border-box;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: lightgray;
+        }
+
+        .container{
+            width: 50vw;
+            margin: auto;
+            margin-top: 200px;
+            border: 2px solid black;
+            padding: 30px;
+            font-size: 22px;
+            background-color: white;
+        }
+
+        p{
+            margin: 30px;
+            border: 1px solid red;
+        }
+
+        a{
+            border: 1px solid orange;
+            height: 100px; /* Has no effect on inline element */
+            margin-top: 200px; /* Has no effect on inline element */
+            margin-bottom: 800px; /* Has no effect on inline element */
+        }
+
+        .my-btn{
+            margin: 30px;
+            background-color: lightcoral;
+            color: black;
+            padding: 20px 50px;
+            border: none;
+            cursor: pointer;
+            /* padding: 100px 60px;  */
+            /* display: inline-block; */
+        }
+
+        .my-btn:hover{
+            background-color: coral;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#">Qui</a> nesciunt quis laudantium atque dolore perspiciatis adipisci saepe amet sit aut consectetur optio, illum necessitatibus incidunt cupiditate enim deserunt officiis assumenda!
+                Debitis eveniet, nam eaque nesciunt minus saepe, <a href="#">nostrum</a> vero nihil nobis nemo numquam <a href="#">labore</a> temporibus! Aliquam sequi molestiae, necessitatibus modi, et qui illum delectus nobis at odit voluptates consequuntur?
+            </p>
+            <a class="my-btn" href="#">Button 1</a>
+            <a class="my-btn" href="#">Button 2</a>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nesciunt quis laudantium atque dolore perspiciatis adipisci saepe amet <a href="#">sit</a> aut consectetur optio, illum necessitatibus incidunt cupiditate enim deserunt officiis assumenda!
+                Debitis eveniet, nam eaque nesciunt <a href="#">minus</a> saepe, nostrum vero nihil nobis nemo numquam <a href="#">labore</a> temporibus! <a href="#">Aliquam</a> sequi molestiae, necessitatibus modi, et qui illum delectus nobis at odit voluptates consequuntur?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut animi laborum exercitationem labore atque? <a href="#">Vitae</a> sed quaerat laudantium ullam, cumque, eum atque provident at quam fuga autem laboriosam facere magni.
+            </p>
+        </div>
+        <a class="my-btn" href="#">Button 3</a> 
+        <a class="my-btn" href="#">Button 4</a>
+    </div>
+</body>
+</html>

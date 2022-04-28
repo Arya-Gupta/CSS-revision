@@ -35,6 +35,8 @@ graph TD;
 
 <a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">13 - Variables</a>
 
+<a href="https://www.youtube.com/watch?v=xx_pJ2ouGnc">14 - Outlines vs border</a>
+
 ## Responsive-design
 
 <a href="https://www.youtube.com/watch?v=DVjrb52C5Gs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=30">1 - Em, rem, vh and vw</a>

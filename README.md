@@ -37,6 +37,8 @@ graph TD;
 
 <a href="https://www.youtube.com/watch?v=xx_pJ2ouGnc">14 - Outline vs border</a>
 
+<a href="https://www.youtube.com/watch?v=e_kdWMmD3z0">15 - Color Theory</a>
+
 ## Responsive-design
 
 <a href="https://www.youtube.com/watch?v=DVjrb52C5Gs&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=30">1 - Em, rem, vh and vw</a>

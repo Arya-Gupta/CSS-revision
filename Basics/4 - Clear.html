@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 - Clear</title>
+    <style>
+        /* 
+            The clear property specifies what should happen with the element that is next to a floating element. 
+            The clear property always forces a new line, ignoring the things which are above it.
+            left - The element is pushed below left floated elements
+            right - The element is pushed below right floated elements
+            both - The element is pushed below both left and right floated elements
+        */
+
+        *{
+            box-sizing: border-box;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            width: 50vw;
+            margin: auto;
+            margin-top: 100px;
+            background-color: lightgray;
+        }
+
+        .box{
+            padding: 30px;
+            font-size: 22px;
+            color: white;
+            opacity: 0.7;
+            border: 2px solid black;
+        }
+
+        /* Box 1, 2, 3 - First container */
+        #box1{
+            background-color: red;
+            width: 50%;
+        }
+
+        #box2{
+            background-color: blue;
+            width: 50%;
+        }
+
+        #box3{
+            background-color: green;
+            width: 50%;
+        }
+
+        /* Box 4, 5, 6 - Second container */
+        #box4{
+            background-color: red;
+            width: 50%;
+            float: left;
+        }
+
+        #box5{
+            background-color: blue;
+            width: 50%;
+            float: left;
+        }
+
+        #box6{
+            background-color: green;
+            /* clear: right; Has no effect because both box1 and box2 are floating to the left */
+            clear: left; /* Doesn't allow any left floating element to overlap the box */
+        }
+
+        /* Box 7, 8, 9 - Third container */
+        /* 
+            In the third container, both box 1 and box 2 are overlapping box 3. 
+            Using clear: right will not allow box2 to overlap box3.
+            Using clear: left will not allow box1 to overlap box3. (Note: Insert more text in box2 to see this overlap)
+            However, to stop them both from overlapping box3 at the same time, we need to use clear: both. 
+        */
+        #box7{
+            background-color: red;
+            width: 48%;
+            float: left;
+        } 
+
+        #box8{
+            background-color: blue;
+            width: 48%;
+            /* height: 300px; */
+            float: right;
+        }
+
+        #box9{
+            background-color: green;
+            width: 100%; /* Width is set to 100% of parent container */
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1" class="box">
+            <h2>Box 1</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel tempora necessitatibus, aperiam distinctio repellat magnam pariatur vero accusantium laboriosam ad odio atque, accusamus consectetur nesciunt architecto deserunt dolorem commodi.
+            </p>
+        </div>
+        <div id="box2" class="box">
+            <h2>Box 2</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nisi nemo aliquid ducimus incidunt nihil, quas inventore animi laudantium iste aspernatur architecto voluptatem eligendi sequi. Nobis nemo qui fuga sapiente?
+            </p>
+        </div>
+        <div id="box3" class="box">
+            <h2>Box 3</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel itaque quaerat earum delectus ipsam. Eveniet eligendi molestias tempore voluptatibus, incidunt nisi, veritatis dolor beatae, ullam similique quod consectetur! Accusantium, maxime.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="box4" class="box">
+            <h2>Box 1</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel tempora necessitatibus, aperiam distinctio repellat magnam pariatur vero accusantium laboriosam ad odio atque, accusamus consectetur nesciunt architecto deserunt dolorem commodi.
+            </p>
+        </div>
+        <div id="box5" class="box">
+            <h2>Box 2</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nisi nemo aliquid ducimus incidunt nihil, quas inventore animi laudantium iste aspernatur architecto voluptatem eligendi sequi. Nobis nemo qui fuga sapiente?
+            </p>
+        </div>
+        <div id="box6" class="box">
+            <h2>Box 3</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel itaque quaerat earum delectus ipsam. Eveniet eligendi molestias tempore voluptatibus, incidunt nisi, veritatis dolor beatae, ullam similique quod consectetur! Accusantium, maxime.
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="box7" class="box">
+            <h2>Box 1</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quibusdam, nemo nihil cum consequuntur voluptatum suscipit sapiente reprehenderit magni maxime dolore aperiam saepe minus asperiores pariatur, nostrum hic. Obcaecati, facere?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel tempora necessitatibus, aperiam distinctio repellat magnam pariatur vero accusantium laboriosam ad odio atque, accusamus consectetur nesciunt architecto deserunt dolorem commodi.
+            </p>
+        </div>
+        <div id="box8" class="box">
+            <h2>Box 2</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nisi nemo aliquid ducimus incidunt nihil, quas inventore animi laudantium iste aspernatur architecto voluptatem eligendi sequi. Nobis nemo qui fuga sapiente?
+            </p>
+        </div>
+        <div id="box9" class="box">
+            <h2>Box 3</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel itaque quaerat earum delectus ipsam. Eveniet eligendi molestias tempore voluptatibus, incidunt nisi, veritatis dolor beatae, ullam similique quod consectetur! Accusantium, maxime.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+

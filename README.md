@@ -19,25 +19,27 @@ graph TD;
 
 <a href="https://www.youtube.com/watch?v=x_i2gga-sYg">5 - Display property</a>
 
-<a href="https://www.youtube.com/watch?v=MwGHiVl-gqk&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=25">6 - Positioning</a>
+<a href="https://www.youtube.com/watch?v=jx5jmI0UlXU">6 - Positioning I</a>
 
-<a href="https://www.youtube.com/watch?v=Uzuq2FGxgK4&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=27">7 - Visibility and z-index</a>
+<a href="https://www.youtube.com/watch?v=NzjU1GmKosQ">7 - Positioning II</a>
 
-<a href="https://www.youtube.com/watch?v=oPPym7UaSIo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=15">8 - Selectors I</a>
+<a href="https://www.youtube.com/watch?v=Uzuq2FGxgK4&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=27">8 - Visibility and z-index</a>
 
-<a href="https://www.youtube.com/watch?v=WwUM7qOimbo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=31">9 - Selectors II</a>
+<a href="https://www.youtube.com/watch?v=oPPym7UaSIo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=15">9 - Selectors I</a>
 
-<a href="https://www.youtube.com/watch?v=P-hZDC5YkJE&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=32">10 - Pseudo selectors</a>
+<a href="https://www.youtube.com/watch?v=WwUM7qOimbo&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=31">10 - Selectors II</a>
 
-<a href="https://www.youtube.com/watch?v=PlKG1fooswU&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=33">11 - Before and after selectors</a>
+<a href="https://www.youtube.com/watch?v=P-hZDC5YkJE&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=32">11 - Pseudo selectors</a>
 
-<a href="https://www.youtube.com/watch?v=ASNldCkFBcM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=34">12 - Box shadow and text shadow</a>
+<a href="https://www.youtube.com/watch?v=PlKG1fooswU&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=33">12 - Before and after selectors</a>
 
-<a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">13 - Variables</a>
+<a href="https://www.youtube.com/watch?v=ASNldCkFBcM&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=34">13 - Box shadow and text shadow</a>
 
-<a href="https://www.youtube.com/watch?v=xx_pJ2ouGnc">14 - Outline vs border</a>
+<a href="https://www.youtube.com/watch?v=ghlm_94oR90&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=35">14 - Variables</a>
 
-<a href="https://www.youtube.com/watch?v=e_kdWMmD3z0">15 - Color Theory</a>
+<a href="https://www.youtube.com/watch?v=xx_pJ2ouGnc">15 - Outline vs border</a>
+
+<a href="https://www.youtube.com/watch?v=e_kdWMmD3z0">16 - Color Theory</a>
 
 ## Responsive-design
 

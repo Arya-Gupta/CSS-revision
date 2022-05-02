@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 - Positioning I</title>
+    <style>
+        /* 
+            static - Default
+            relative - Element is positioned relative to its original position (we can use top/bottom/left/right) and will leave a gap at its original position.
+            absolute - Element is positioned relative to its nearest positioned ancestor. If it doesn't have any ancestor, it uses the document body and moves along with page scrolling. Absolute elements are removed from the normal flow and can overlap other elements.
+        */
+
+        *{
+            box-sizing: border-box;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .parent{
+            font-size: 30px;
+        }
+
+        .parent{
+            padding: 5px;
+            background-color: #00AAFF;
+            margin-bottom: 100px;
+        }
+
+        .child{
+            padding: 5px;
+        }
+
+        .child-one{
+            background-color: rgb(116, 255, 116);
+        }
+
+        .child-two{
+            background-color: rgb(248, 117, 117);
+        }
+
+        .child-three{
+            background-color: rgb(255, 116, 232);
+        }
+
+        /* container-one */
+        #c1{
+            position: relative;
+            top: 30px; /* The position where One normally would be is reserved and the actual element has shifted */
+            /* We do not use position relative to use top/bottom/left/right on an element. It takes the element out of the document flow and makes it harder to style. */
+        }
+
+        /* container-two */
+        #c2{
+            /* Position absolute completely removes the element from the document flow and everything else renders as if that absolute element didn't even exist at all. This makes position: absolute really useful when we want to stick something in a certain position but don't want anything else moving around it. */
+            position: absolute;
+            /* opacity: 0.5; */
+            /* Absolute position absolutely positions itself inside a parent container that it can reference. Using top: 10px makes the element go up to 10px from the top of the page. */
+            /* The parent of this element here is not container-two (this is a static positioned element, so it cannot have anything positioned absolutely/relatively to it). */
+            /* In order to change an element so that we can position something absolutely/relatively to it, we need to change its position property to relative, absolute, sticky or fixed. */
+            /* top: 10px; */
+        }
+
+        /* #container-two{ */
+            /* Positioning the container relatively will allow the the child c2 to be positioned absolutely inside it by referencing its position. */
+            /* position: relative; */
+            /* This is where we mostly use position: relative. - when we want to position something absolutely inside it. Otherwise the element will fall back to the next relatively positioned parent or all the way to the html element itself. */
+        /* } */
+
+
+        /* container-three */
+        #c3{
+            position: absolute;
+            top: 50px;
+            left: 200px;
+        }
+
+        #container-three{
+            position: relative;
+            /* An element with any display property other than static can be used by the absolutely positioned element as a parent  */
+            /* position: absolute;
+            position: sticky;
+            position: fixed; */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container-one" class="parent">
+        Parent
+        <div id="c1" class="child-one child">One</div>
+        <div class="child-two child">Two</div>
+        <div class="child-three child">Three</div>
+    </div>
+
+    <div id="container-two" class="parent">
+        Parent
+        <div id="c2" class="child-one child">One</div>
+        <div class="child-two child">Two</div>
+        <div class="child-three child">Three</div>
+    </div>
+
+    <div id="container-three" class="parent">
+        Parent
+        <div id="c3" class="child-one child">One</div>
+        <div class="child-two child">Two</div>
+        <div class="child-three child">Three</div>
+    </div>
+</body>
+
+</html>

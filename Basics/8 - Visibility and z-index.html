@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8 - Visibility and z-index</title>
+    <style>
+
+        /*
+            visibility: hidden causes the element to be rendered but not displayed on the page (the hidden element takes up space)
+            display: none causes the element not to appear on the page (there is no space allocated for the element) but we can still interact with it through the DOM
+
+            z-index of an element specifies its stack order. An element with greater stack order is always in front of an element with a lower stack order.
+            z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
+            If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top. 
+        */
+
+        *{
+            box-sizing: border-box;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+        }
+
+        #box1{
+            background-color: red;
+        }
+
+        /* Element with higher z-index is always placed on top */
+        #box2{
+            background-color: green;
+            /* visibility: hidden; */
+            /* display: none; */
+            position: relative;
+            z-index: 1;
+        }
+
+        #box3{
+            background-color: blue;
+            position: relative;
+            top: -70px; 
+            /* z-index: 5; */
+            /* z-index: -3; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1" class="box"></div>
+        <div id="box2" class="box"></div>
+        <div id="box3" class="box"></div>
+    </div>
+</body>
+</html>
